@@ -1,0 +1,33 @@
+$colours: (
+  "grey": #c7c7c7,
+  "black": #0a0a0a,
+  "white": #ffffff,
+  "darkgrey": #767676,
+  "red": #e92569,
+  "lightgrey": #e5e5e5,
+);
+
+body {
+  background-image: radial-gradient(
+    circle at center,
+    map-get($colours, "grey"),
+    map-get($colours, "lightgrey")
+  );
+}
+
+.navname {
+  color: #e92569;
+}
+
+.page-link {
+  color: #e92569;
+  
+}
+
+h1 {
+  color: #e92569;
+}
+
+.btn {
+  background-color: #e92569;
+}
